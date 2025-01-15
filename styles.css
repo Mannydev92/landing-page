@@ -71,17 +71,51 @@ img {
 
 .title-info p {
   text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 .img-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 0;
+  margin: auto;
+  width: 1000px;
+  padding: 100px;
 }
 
 .img-container img {
-  display: block;
+  display: flex;
   margin: auto;
   width: 200px;
+}
+
+.card p {
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+
+  font-style: italic;
+}
+
+.quote-author {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.quote-container {
+  display: block;
+  width: 800px;
+  justify-content: center;
+  padding: 200px;
+  margin: auto;
 }
