@@ -119,3 +119,45 @@ img {
   padding: 200px;
   margin: auto;
 }
+.container-cta {
+  background-color: #3882f6;
+  width: 800px;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.cta-button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-color: #e5e7eb;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-button {
+  margin: auto;
+}
+
+.textos-cta {
+  flex-direction: column;
+
+  margin: auto;
+}
+
+.cta-title {
+  margin-bottom: -5px;
+}
+
+.cta-text {
+  margin-top: -5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  background-color: #1f2937;
+  margin-top: 100px;
+}
